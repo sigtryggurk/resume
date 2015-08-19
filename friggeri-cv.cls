@@ -97,7 +97,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
       \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=.4cm] (line) at (current page.north){};
     \node [rectangle, , anchor=north, minimum width=\paperwidth, minimum height=4cm] (box) at (current page.north){};
     \node [anchor=center] (name) at (box) {%
-      \fontsize{32pt}{72pt}\color{black}%
+      \fontsize{32pt}{64pt}\color{black}%
       {\thinfont #1} {\bodyfont  #2}
     };
     \node [anchor=north] at (name.south) {%
@@ -105,7 +105,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
       \thinfont #3%
     };
   \end{tikzpicture}
-  \vspace{2.5cm}
+  \vspace{2.2cm}
   \vspace{-2\parskip}
 }
 
@@ -131,12 +131,12 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 }
 
 \renewcommand{\section}[1]{
-  \par\vspace{\parskip}
+  \par\vspace{.75\parskip}
   {%
     \LARGE\headingfont\color{headercolor} #1%
    % \@sectioncolor #1%
   }
-  \par\vspace{\parskip}
+  \par\vspace{.75\parskip}
 }
 
 \renewcommand{\subsection}[1]{
