@@ -1,0 +1,1 @@
+Sigtryggur Kjartansson - resume
