@@ -105,7 +105,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
       \thinfont #3%
     };
   \end{tikzpicture}
-  \vspace{2.2cm}
+  \vspace{2.5cm}
   \vspace{-2\parskip}
 }
 
@@ -181,12 +181,11 @@ BoldItalicFont=texgyreheros-bolditalic.otf
         {\footnotesize\addfontfeature{Color=gray} #2}\\%
         #4
         \hfill%
-        {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
-        \\
+        {\footnotesize\addfontfeature{Color=lightgray} #3}\\\\%
         #5
         \\\\
         #6
-    \vspace{\parsep}\\%
+    \vspace{\parsep}%
     
   }\\}
 
@@ -203,7 +202,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   \renewcommand{\section}[1]{
     \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}
   }
-  \begin{textblock}{4.7}(0.8, 3.83)
+  \begin{textblock}{4.7}(0.8, 3.4)
   \begin{flushright}
   \obeycr
 }{%
